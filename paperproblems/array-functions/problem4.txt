@@ -13,5 +13,5 @@ function isDog(animal) {
     return animal.species === 'dog';
 }
 
-console.log(animals.some(isDog));
-console.log(animals.every(isDog));
+console.log(animals.some(isDog));//true
+console.log(animals.every(isDog));//false

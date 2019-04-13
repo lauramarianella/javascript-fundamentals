@@ -11,3 +11,9 @@ function call(f) {
 }
 
 call(greet);
+
+
+
+ //(function (x){console.log("hello " + x);}) (   (function (){return "Bob";})()  );
+
+ (function (fGreet,y){ fGreet(y);})( function (x){ console.log("hello " + x)}, "bob");

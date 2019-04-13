@@ -10,3 +10,5 @@ function f(g) {
 }
 
 f(obj.bar);
+//undefined +4 = NaN
+//undefined

@@ -17,4 +17,5 @@ function h() {
     setInterval(g, 1000);
 }
 
-setInterval(h, 1000);
+setInterval(h, 1000);//The program is going to console.log "Hello!" after 2000 miliseconds (2s) 
+//and every 2000 miliseconds (2s) not stopping only if clear the interval with the id.

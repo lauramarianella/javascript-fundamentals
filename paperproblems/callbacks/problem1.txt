@@ -21,4 +21,8 @@ function h() {
     setTimeout(f, 1000);
 }
 
-setTimeout(h, 200);
+setTimeout(h, 200); 
+//Firt, it is going to wait 200ms to call h, then h is going to execute and wait 1000ms to call f, 
+//then f is going to execute and wait 500ms to call g which inmediatelly is going to console.log "hello!"
+
+//After 1700miliseconds (1.7s) the program is going to console.log "Hello!"

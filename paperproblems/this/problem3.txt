@@ -11,5 +11,4 @@ let obj2 = {
 }
 
 obj2.bar = obj.bar;
-obj2.bar();
-
+obj2.bar();//12 because obj2.bar points to function in line 4, and this.baz is the baz of obj2 so it is 12

@@ -25,13 +25,16 @@ When you start working on the problems in the src folder, you can run tests for 
 
 Preferred order of completion:  
 proto  
-anonymous-functions  
-arrow-functions  
-callbacks  
+anonymous-functions  (problem 5, re-check)
+arrow-functions
+callbacks (hard)
 return  
 this  
+
+
 variable scoping  
 syntax-errors  
 conditional-operator  
 HOF  
+
 array-functions

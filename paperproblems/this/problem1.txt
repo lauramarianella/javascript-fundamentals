@@ -26,5 +26,5 @@ function foo() {
 }
 
 let obj = {bar: foo, baz: 8};
-obj.bar();
-
+obj.bar();//8
+//the result is 8 because foo is not an ARROW function, then this is the obj

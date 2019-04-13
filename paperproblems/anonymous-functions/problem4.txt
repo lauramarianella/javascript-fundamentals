@@ -10,3 +10,8 @@ function twice(f) {
 }
 
 twice(greet);
+
+(function (f, x, y){ 
+    f(x);
+    f(y);
+})( ( function (x){ console.log("hello " + x)}), "bob", "mary" );

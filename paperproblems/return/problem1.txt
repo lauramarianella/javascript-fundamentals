@@ -5,5 +5,5 @@ function f() {
     return "hello";
 }
 
-console.log(f());
+console.log(f());//5, it is going to execute the 1st return, the 2nd it is never executed.
 

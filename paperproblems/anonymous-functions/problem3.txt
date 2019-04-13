@@ -9,3 +9,7 @@ function call(f) {
 }
 
 call(greet);
+
+//(function(arrayXY){ console.log("hello " + arrayXY[0] + " " + arrayXY[1]);}) (   ( function (){ return ["Bob","Dole"]} )()  );
+
+(function (fGreet, x, y){ fGreet(x,y)})( ( function (x,y){console.log("hello " + x + " " + y);}), "Bob", "Dole");
