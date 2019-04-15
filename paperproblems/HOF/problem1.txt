@@ -25,3 +25,44 @@ filter(oddNumbers, isEven)  => []
 filter(oddNumbers, isOdd)   => [3, 5, 7, 9]
 filter(someNumbers, isEven) => [2, 4]
 filter(someNumbers, isOdd)  => [1, 3]
+
+
+/*****
+//filter has 2 parameters, 
+
+//first parameter is type: array, elementType number; second parameter is a function
+
+//evaluates the function passed in the second parameter with the input in the firt parameter, 
+//returns an array containing the elements that were true for the functin, if it is false, it does not put then in the array.
+/*****
+
+let newFilteredArray = evenNumbers.filter(each => (each%2)===0);
+console.log(newFilteredArray);
+
+newFilteredArray = oddNumbers.filter(each => (each%2)===1);
+console.log(newFilteredArray);
+
+newFilteredArray = evenNumbers.filter(each => (each%2)===1);
+console.log(newFilteredArray);
+
+newFilteredArray = oddNumbers.filter(each => (each%2)===0);
+console.log(newFilteredArray);
+
+newFilteredArray = someNumbers.filter(each => (each%2)===0);
+console.log(newFilteredArray);
+
+newFilteredArray = someNumbers.filter(each => (each%2)===1);
+console.log(newFilteredArray);
+
+
+let newFilteredArray = evenNumbers.filter(isEven);
+console.log(newFilteredArray);
+
+newFilteredArray = oddNumbers.filter(isOdd);
+console.log(newFilteredArray);
+
+newFilteredArray = someNumbers.filter(isEven);
+console.log(newFilteredArray);
+
+newFilteredArray = someNumbers.filter(isOdd);
+console.log(newFilteredArray);

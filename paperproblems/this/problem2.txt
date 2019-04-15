@@ -6,7 +6,8 @@ let obj = {
 }
 
 let g = obj.bar;
-g();//12 because there is not arrow function
+g();
 
-WRONG, IT IS UNDEFINED, executed in paper to realize... step by step
+ IT IS UNDEFINED, executed in paper to realize... step by step
 
+//WRONG WRONG 12 because there is not arrow function

@@ -28,3 +28,26 @@ map(someNumbers, triple) => [3, 6, 9, 12]
 
 map(someStrings, toUpperCase) => ["BOB", "ERIC"]
 map(someStrings, toLowerCase) => ["bob", "eric"]
+
+//map has 2 parameters, 1st an array, 2nd a function
+//could be array of elemetType number or string
+//the second parameter is a function
+
+//it executes the function and its input is the array, 
+//if it is number could duplicate or triplicate its value
+//if it is an string, it could uppercase or lowercase the string
+
+let someNumbers = [1, 2, 3, 4];
+let someStrings = ["bob", "ERIC"];
+
+let outputString = someStrings.map(each => each.toUpperCase());
+console.log(outputString);
+
+let outputString2 = outputString.map(each => each.toLowerCase());
+console.log(outputString2);
+
+let outputNumbers = someNumbers.map(each => each * 2);
+console.log(outputNumbers);
+
+outputNumbers = someNumbers.map(each => each * 3);
+console.log(outputNumbers);

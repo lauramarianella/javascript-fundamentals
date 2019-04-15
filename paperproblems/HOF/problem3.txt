@@ -8,4 +8,4 @@ function f(g) {
     return g(3,5);
 }
 
-console.log(f(k));
+console.log(f(k));//15

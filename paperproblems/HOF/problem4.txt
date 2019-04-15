@@ -12,4 +12,4 @@ function f(g, h) {
     return g(h, 1, 4);
 }
 
-console.log(f(k, m));
+console.log(f(k, m));//14

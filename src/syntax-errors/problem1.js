@@ -5,7 +5,9 @@ for(let i = 0; i < 10; i++) {
                 if( k < j) {
                     console.log(i + j + k)
                 }
-            }
+            
         }
     }
 }
+
+//npm test test/syntax-errors/problem1.js
